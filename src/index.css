@@ -1,0 +1,16 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+:root {
+  font: 17px/1.6 'Outfit', 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color-scheme: dark;
+}
+
+body { margin: 0; }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+}
